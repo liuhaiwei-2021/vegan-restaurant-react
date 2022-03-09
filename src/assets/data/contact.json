@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "Email",
+    "imageURL": "images/contacts/envelope.svg",
+    "content": "haiweiliu@icloud.com"
+  },
+  {
+    "id": 1,
+    "title": "Mobile",
+    "imageURL": "images/contacts/phone.svg",
+    "content": "+46 73 912 8053"
+  },
+  {
+    "id": 2,
+    "title": "City, Country",
+    "imageURL": "images/contacts/location.svg",
+    "content": "Solna, Sweden"
+  }
+]

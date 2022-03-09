@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "title": "JavaScript",
+    "imageURL": "images/tech/js.svg"
+  },
+  {
+    "id": 1,
+    "title": "CSS",
+    "imageURL": "images/tech/css3.svg"
+  },
+  {
+    "id": 2,
+    "title": "HTML",
+    "imageURL": "images/tech/html5.svg"
+  },
+  {
+    "id": 3,
+    "title": "React",
+    "imageURL": "images/tech/react.svg"
+  },
+  {
+    "id": 4,
+    "title": "FireBase",
+    "imageURL": "images/tech/firebase.svg"
+  },
+  {
+    "id": 5,
+    "title": "PostgreSQL",
+    "imageURL": "images/tech/PostgreSQL.svg"
+  },
+  {
+    "id": 6,
+    "title": "TypeScript",
+    "imageURL": "images/tech/typescript.svg"
+  },
+  {
+    "id": 7,
+    "title": "Vue ",
+    "imageURL": "images/tech/vuejs.svg"
+  },
+  {
+    "id": 8,
+    "title": "SASS",
+    "imageURL": "images/tech/sass.svg"
+  },
+  {
+    "id": 9,
+    "title": "Git",
+    "imageURL": "images/tech/git.svg"
+  },
+  {
+    "id": 10,
+    "title": "Python",
+    "imageURL": "images/tech/python.svg"
+  },
+  {
+    "id": 11,
+    "title": "Linux",
+    "imageURL": "images/tech/linux.svg"
+  }
+]

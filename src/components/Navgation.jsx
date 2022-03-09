@@ -1,3 +1,5 @@
+//NPM packages
+import { Link, NavLink } from "react-router-dom";
 //Projects files
 import "../styles/Navagation.css";
 
@@ -6,31 +8,36 @@ function Navgation() {
     <div className="nav-bar">
       <div className="nav-container">
         <div>
-          <a className="navbar-link" href="#">
-            <img className="logo" src="images/logo-haiwei.png" alt="logo" />
-          </a>
+          <Link className="navbar-link" to="/">
+            <img className="logo" src="images/logo.png" alt="logo" />
+          </Link>
         </div>
 
         <ul className="navbar-items">
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink
+              className="nav-link"
+              to="/dishes"
+              exact="true"
+              activeclassname="active"
+            >
               Dishes
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="/deserts" exact="true">
               Deserts
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="/drinks" exact="true">
               Drinks
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="/contact" exact="true">
               Contact us
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

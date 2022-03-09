@@ -14,13 +14,15 @@ function App() {
   return (
     <div className="main">
       <Navgation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/dishes" element={<Dishes />} />
-        <Route path="/deserts" element={<Deserts />} />
-        <Route path="/drinks" element={<Drinks />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className="content container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/dishes" element={<Dishes />} />
+          <Route path="/deserts" element={<Deserts />} />
+          <Route path="/drinks" element={<Drinks />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   );
