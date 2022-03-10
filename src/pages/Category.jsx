@@ -1,17 +1,22 @@
+import { useParams } from "react-router-dom";
+
 //Projects files
-import dishes from "../data/dishes.json";
+import categories from "../data/categories.json";
+// import deserts from "../data/deserts.json";
+// import drinks from "../data/drinks.json";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 import "../styles/category.css";
 
-function Dishes() {
+function Category() {
+  const { category } = useParams();
+  //  const {title,imageURL,desc,products} =
+
   return (
     <div className="dishes">
       <Hero />
       <div className="container">
-        <p className="category-desc">
-          this is our unqie and special food in the whole world.
-        </p>
+        <p className="category-desc"></p>
         <section className="category-cards">
           {dishes.map((item, index) => (
             <Card key={index} item={item} />
@@ -22,4 +27,4 @@ function Dishes() {
   );
 }
 
-export default Dishes;
+export default Category;

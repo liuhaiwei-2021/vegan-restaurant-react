@@ -1,9 +1,9 @@
 //NPM packages
 import { Link, NavLink } from "react-router-dom";
 //Projects files
-import "../styles/Navagation.css";
+import "../styles/Navigation.css";
 
-function Navgation() {
+function Navigation() {
   return (
     <div className="nav-bar">
       <div className="nav-container">
@@ -45,4 +45,4 @@ function Navgation() {
   );
 }
 
-export default Navgation;
+export default Navigation;

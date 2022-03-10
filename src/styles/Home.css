@@ -1,0 +1,11 @@
+.home {
+  display: block;
+  width: 100%;
+}
+
+.categories {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(3, 33.33%);
+  grid-template-columns: 1fr;
+}

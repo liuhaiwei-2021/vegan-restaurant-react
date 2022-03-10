@@ -1,7 +1,20 @@
-import React from "react";
+//Projects files
+import categories from "../data/categories.json";
+import Hero from "../components/Hero";
+import CardCategory from "../components/CardCategory";
+import "../styles/Home.css";
 
 function Home() {
-  return <div className="home">Home</div>;
+  return (
+    <div className="home">
+      <Hero />
+      <section className="categories">
+        {categories.map((item, index) => (
+          <CardCategory key={index} item={item} />
+        ))}
+      </section>
+    </div>
+  );
 }
 
 export default Home;

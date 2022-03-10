@@ -1,5 +1,5 @@
 //Project files
-import social from "../assets/data/social.json";
+import social from "../data/social.json";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -14,9 +14,6 @@ function Footer() {
               </a>
             </div>
           ))}
-      </div>
-      <div className="footer-text">
-        <p>© 2022 | Designed and built by Haiwei Liu</p>
       </div>
     </div>
   );
