@@ -1,7 +1,7 @@
 //Projects files
 import deserts from "../data/deserts.json";
 import Hero from "../components/Hero";
-import Card from "../components/Card";
+import ProductCard from "../components/ProductCard";
 import "../styles/category.css";
 
 function Deserts() {
@@ -14,7 +14,7 @@ function Deserts() {
         </p>
         <div className="desert-cards">
           {deserts.map((item, index) => (
-            <Card key={index} item={item} />
+            <ProductCard key={index} item={item} />
           ))}
         </div>
       </div>

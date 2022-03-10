@@ -2,9 +2,9 @@
 import { useNavigate } from "react-router-dom";
 
 //Projects files
-import "../styles/CardCategory.css";
+import "../styles/CategoryCard.css";
 
-function CardCategory({ item }) {
+function CategoryCard({ item }) {
   const { title, imageURL, desc } = item;
   const navigate = useNavigate();
 
@@ -22,4 +22,4 @@ function CardCategory({ item }) {
   );
 }
 
-export default CardCategory;
+export default CategoryCard;

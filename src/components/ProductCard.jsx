@@ -1,6 +1,6 @@
-import "../styles/Card.css";
+import "../styles/ProductCard.css";
 
-function Card({ item }) {
+function ProductCard({ item }) {
   const { title, imageURL, desc } = item;
   return (
     <div className="card">
@@ -13,4 +13,4 @@ function Card({ item }) {
   );
 }
 
-export default Card;
+export default ProductCard;

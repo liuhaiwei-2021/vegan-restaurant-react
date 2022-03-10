@@ -1,7 +1,7 @@
 //Projects files
 import dishes from "../data/dishes.json";
 import Hero from "../components/Hero";
-import Card from "../components/Card";
+import ProductCard from "../components/ProductCard";
 import "../styles/category.css";
 
 function Dishes() {
@@ -14,7 +14,7 @@ function Dishes() {
         </p>
         <section className="category-cards">
           {dishes.map((item, index) => (
-            <Card key={index} item={item} />
+            <ProductCard key={index} item={item} />
           ))}
         </section>
       </div>
