@@ -9,7 +9,7 @@ function CategoryCard({ item }) {
   const navigate = useNavigate();
 
   return (
-    <article className="category">
+    <div className="category-card">
       <img className="category-img" src={imageURL} alt="category" />
       <div className="category-info">
         <h1 className="category-title">{title}</h1>
@@ -18,7 +18,7 @@ function CategoryCard({ item }) {
           View {title}
         </button>
       </div>
-    </article>
+    </div>
   );
 }
 

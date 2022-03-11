@@ -1,18 +1,18 @@
 //Projects files
 import categories from "../data/categories.json";
 import Hero from "../components/Hero";
-import CardCategory from "../components/CategoryCard";
 import "../styles/Home.css";
+import CategoryCard from "../components/CategoryCard";
 
 function Home() {
   return (
     <div className="home">
       <Hero />
-      <section className="categories">
+      <div className="category-cards">
         {categories.map((item, index) => (
-          <CardCategory key={index} item={item} />
+          <CategoryCard key={index} item={item} />
         ))}
-      </section>
+      </div>
     </div>
   );
 }
