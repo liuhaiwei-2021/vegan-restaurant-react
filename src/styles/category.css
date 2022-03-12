@@ -6,8 +6,8 @@
   padding: 24px;
 }
 .category-cards {
-  min-height: 100vh;
   display: grid;
-  grid-template-rows: repeat(4, 25%);
+  min-height: 100vh;
+  grid-template-rows: repeat(3, 33.33%);
   grid-template-columns: 1fr;
 }

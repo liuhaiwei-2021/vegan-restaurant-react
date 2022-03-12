@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
       <Hero />
-      <div className="category-cards">
+      <div className="home-cards">
         {categories.map((item, index) => (
           <CategoryCard key={index} item={item} />
         ))}

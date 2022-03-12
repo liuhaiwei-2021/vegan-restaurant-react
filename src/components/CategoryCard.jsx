@@ -12,7 +12,7 @@ function CategoryCard({ item }) {
     <div className="category-card">
       <img className="category-img" src={imageURL} alt="category" />
       <div className="category-info">
-        <h1 className="category-title">{title}</h1>
+        <h2 className="category-title">{title}</h2>
         <p className="category-desc">{desc}</p>
         <button className="category-btn" onClick={() => navigate(`/${title}`)}>
           View {title}
