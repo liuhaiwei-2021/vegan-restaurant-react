@@ -1,11 +1,13 @@
 .card {
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  grid-template-rows: min-content;
   margin: 0;
   padding: 16px;
 }
 .card-title {
   font-weight: bolder;
+  text-transform: uppercase;
 }
 .card-img {
   max-width: 100%;
@@ -22,4 +24,7 @@
   text-align: center;
   margin: 0 auto;
   padding: 0 48px;
+}
+.card-desc {
+  text-align: start;
 }

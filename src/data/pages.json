@@ -1,0 +1,14 @@
+{
+  "home-name": "Vegan Taste",
+  "home-imageURL": "images/home-hero.png",
+  "home-slogan": "Healthy Food for Health Lifestylers.",
+  "dishes-name": "Dishes",
+  "dishes-imageURL": "images/home/dishes.png",
+  "dishes-slogan": "",
+  "deserts-name": "Deserts",
+  "deserts-imageURL": "images/home/deserts.png",
+  "deserts-slogan": "",
+  "drinks-name": "Drinks",
+  "drinks-imageURL": "images/home/drinks.png",
+  "drinks-slogan": ""
+}

@@ -1,16 +1,22 @@
 //Projects files
+import pages from "../data/pages.json";
 import deserts from "../data/deserts.json";
 import Hero from "../components/Hero";
 import ProductCard from "../components/ProductCard";
 import "../styles/category.css";
 
 function Deserts() {
+  const name = pages["deserts-name"];
+  const imageURL = pages["deserts-imageURL"];
+  const slogan = pages["deserts-slogan"];
+  const heroContent = { name, imageURL, slogan };
   return (
     <div className="deserts">
-      <Hero />
+      <Hero heroContent={heroContent} />
       <div className="container">
         <p className="category-desc">
-          this is our unqie and special food in the whole world.
+          These deserts have high fiber and protein per serving and are packed
+          with nutritious fruits ,nuts and vegetbles.
         </p>
         <div className="desert-cards">
           {deserts.map((item, index) => (

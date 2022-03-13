@@ -1,26 +1,26 @@
 [
   {
     "id": 0,
-    "title": "desert 1",
-    "imageURL": "images/home/deserts.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Tart Cherry Nice Cream",
+    "imageURL": "images/deserts/Tart Cherry Nice Cream.png",
+    "desc": "This easy vegan tart cherry nice cream—made from only a few simple ingredients—is guaranteed to satisfy your sweet tooth and also deliver a boost of melatonin that may help you get a more restful night's sleep. "
   },
   {
     "id": 1,
-    "title": "desert 2",
-    "imageURL": "images/home/deserts.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Vegan Flourless Chocolate Cake",
+    "imageURL": "images/deserts/Vegan Flourless Chocolate Cake.png",
+    "desc": "This deeply dark chocolate vegan cake is not just for vegans. This fudge-like cake is also gluten-free, perfect for Valentine's Day and can even be made kosher to enjoy for Passover by making your own confectioners' sugar. The fresh berries on the side are a nice addition to the rich chocolate. "
   },
   {
     "id": 2,
-    "title": "desert 3",
-    "imageURL": "images/home/deserts.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Cranberry-Almond Granola Bars",
+    "imageURL": "images/deserts/Cranberry-Almond Granola Bars.png",
+    "desc": "There are plenty of granola bar options at the grocery store, but they're also easy (and often healthier) to make at home. Feel free to vary the add-ins to your taste, swapping 2 cups of any combination of small (or chopped) dried fruit, nuts, seeds and/or chocolate chips for the dried cranberries and nuts in this version. We tested several sticky sweeteners, including maple syrup and honey, but found brown rice syrup held the bars together the best. "
   },
   {
     "id": 3,
-    "title": "desert 4",
-    "imageURL": "images/home/deserts.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Strawberry-Mango Nice Cream",
+    "imageURL": "images/deserts/Strawberry-Mango Nice Cream.png",
+    "desc": "This creamy strawberry-mango nice cream is a delicious healthy ice cream alternative. It's all fruit, dairy-free, vegan and contains no added sugar. And this three-ingredient dessert is super-fast and easy to prep. Serve it as a snack or light dessert on the hottest days of the summer--or any time you want a refreshing treat. "
   }
 ]

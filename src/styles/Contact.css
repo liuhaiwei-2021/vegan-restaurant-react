@@ -1,0 +1,56 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+.contact-img {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+  object-fit: cover;
+  margin-top: 48px;
+}
+.reservation,
+.adress,
+form {
+  display: grid;
+  grid-template-rows: max-content;
+  row-gap: 8px;
+}
+.reservation form {
+  row-gap: 16px;
+}
+.contact input {
+  display: block;
+}
+input,
+select {
+  width: 400px;
+  height: 3em;
+  border-radius: 10px;
+  border: 1px solid #5f8e44;
+  outline: none;
+}
+input:focus,
+select:focus {
+  border: 1px solid #cca33e;
+  outline: none;
+}
+
+.book-btn {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #5f8e44;
+}
+.book-btn:hover {
+  color: #cca33e;
+}

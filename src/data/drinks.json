@@ -1,26 +1,26 @@
 [
   {
     "id": 0,
-    "title": "drink 1",
-    "imageURL": "images/home/drinks.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Berry Bubbly Vodka Soda",
+    "imageURL": "images/drinks/Berry Bubbly Vodka Soda.png",
+    "desc": "This bright and bubbly sipper combines berries with vodka and seltzer to make a colorful 3-ingredient cocktail you can enjoy year-round, thanks to frozen berries. Amp up the flavor even more by using a flavored seltzer rather than plain! "
   },
   {
     "id": 1,
-    "title": "drink 2",
-    "imageURL": "images/home/drinks.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Cucumber Martini",
+    "imageURL": "images/drinks/Cucumber Martini.png",
+    "desc": "The gin is the primary flavor in this cooling cucumber martini, so be sure to pick your favorite! Elderflower liqueur adds a floral note, while lime and simple syrup give this refreshing cocktail a balance of sweet and sour flavors."
   },
   {
     "id": 2,
-    "title": "drink 3",
-    "imageURL": "images/home/drinks.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Healthy Chocolate Milk Recovery Drink",
+    "imageURL": "images/drinks/Healthy Chocolate Milk Recovery Drink.png",
+    "desc": "Recover from your next workout with this healthy chocolate milk recovery drink. Avocado adds creaminess while chocolate and peanut butter give it a satisfying salty-sweet flavor. Oats will fill you up with their added boost of fiber. "
   },
   {
     "id": 3,
-    "title": "drink 4",
-    "imageURL": "images/home/drinks.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "title": "Strawberry-Blueberry-Banana Smoothie",
+    "imageURL": "images/drinks/Strawberry-Blueberry-Banana Smoothie.png",
+    "desc": "A smoothie with strawberries, blueberries and banana is delicately sweet and entirely kid-friendly, even with a boost of protein from hemp seeds. Freeze the fruits ahead of time for an extra frosty texture once blended. "
   }
 ]

@@ -1,14 +1,16 @@
 //Project files
+
 import "../styles/Hero.css";
 
-function Hero() {
+function Hero({ heroContent }) {
+  const { name, imageURL, slogan } = heroContent;
   return (
     <section className="hero" id="hero">
-      <img className="hero-image" src="images/home-hero.png" alt="hero image" />
+      <img className="hero-image" src={imageURL} alt="hero background" />
       <div className="hero-text">
         <div className="hero-heading">
-          <h1 className="restaurant-name">Vegan Taste</h1>
-          <h1 className="slogan">Healthy Food for Health Lifestylers.</h1>
+          <h1 className="hero-name">{name}</h1>
+          <h2 className="slogan">{slogan}</h2>
         </div>
       </div>
     </section>
