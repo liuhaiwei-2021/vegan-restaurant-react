@@ -15,7 +15,7 @@
 .bg-foot {
   background-color: #eee;
 }
-h p {
+p {
   margin-top: 4px;
   letter-spacing: 0.1em;
   font-family: sans-serif;
@@ -33,4 +33,16 @@ h3 {
 }
 a {
   font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    width: 60%;
+    margin: 0 auto;
+  }
 }

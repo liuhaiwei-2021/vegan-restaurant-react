@@ -1,5 +1,5 @@
 //NPM files
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //Projects files
 import Navigation from "./components/Navigation";
@@ -15,18 +15,20 @@ import "./styles/App.css";
 function App() {
   return (
     <div className="main">
-      <Navigation />
-      <div className="content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/dishes" element={<Dishes />} />
-          <Route path="/deserts" element={<Deserts />} />
-          <Route path="/drinks" element={<Drinks />} />
-          <Route path="/:id" Component={ProductDetails} exact />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-      <Footer />
+      <BrowserRouter>
+        <Navigation />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/dishes" element={<Dishes />} />
+            <Route path="/deserts" element={<Deserts />} />
+            <Route path="/drinks" element={<Drinks />} />
+            <Route path="/:category/:id" element={<ProductDetails />} exact />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

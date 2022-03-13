@@ -10,6 +10,7 @@ function Dishes() {
   const imageURL = pages["dishes-imageURL"];
   const slogan = pages["dishes-slogan"];
   const heroContent = { name, imageURL, slogan };
+  const category = "dishes";
   return (
     <div className="dishes">
       <Hero heroContent={heroContent} />
@@ -20,7 +21,7 @@ function Dishes() {
         </p>
         <section className="product-cards">
           {dishes.map((item, index) => (
-            <ProductCard key={index} item={item} />
+            <ProductCard key={index} item={item} category={category} />
           ))}
         </section>
       </div>

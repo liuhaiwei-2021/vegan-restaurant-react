@@ -39,7 +39,9 @@ select:focus {
   border: 1px solid #cca33e;
   outline: none;
 }
-
+.opening-time {
+  border: none;
+}
 .book-btn {
   border: 0;
   line-height: 2.5;

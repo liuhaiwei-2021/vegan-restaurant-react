@@ -54,3 +54,8 @@
   background-color: #5f8e44;
   color: #cca33e;
 }
+@media screen and (max-width: 600px) {
+  .category-card {
+    grid-template-columns: (1fr);
+  }
+}

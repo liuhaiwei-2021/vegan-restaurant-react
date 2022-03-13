@@ -10,6 +10,7 @@ function Deserts() {
   const imageURL = pages["deserts-imageURL"];
   const slogan = pages["deserts-slogan"];
   const heroContent = { name, imageURL, slogan };
+  const category = "deserts";
   return (
     <div className="deserts">
       <Hero heroContent={heroContent} />
@@ -20,7 +21,7 @@ function Deserts() {
         </p>
         <div className="desert-cards">
           {deserts.map((item, index) => (
-            <ProductCard key={index} item={item} />
+            <ProductCard key={index} item={item} category={category} />
           ))}
         </div>
       </div>

@@ -3,24 +3,240 @@
     "id": 0,
     "title": "Tart Cherry Nice Cream",
     "imageURL": "images/deserts/Tart Cherry Nice Cream.png",
-    "desc": "This easy vegan tart cherry nice cream—made from only a few simple ingredients—is guaranteed to satisfy your sweet tooth and also deliver a boost of melatonin that may help you get a more restful night's sleep. "
+    "desc": "This easy vegan tart cherry nice cream—made from only a few simple ingredients—is guaranteed to satisfy your sweet tooth and also deliver a boost of melatonin that may help you get a more restful night's sleep. ",
+    "category": "deserts",
+    "ingredients": [
+      "bananas",
+      "sweet cherries",
+      "tart cherries",
+      "unsweetened almond milk"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 400
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 17
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 1,
     "title": "Vegan Flourless Chocolate Cake",
     "imageURL": "images/deserts/Vegan Flourless Chocolate Cake.png",
-    "desc": "This deeply dark chocolate vegan cake is not just for vegans. This fudge-like cake is also gluten-free, perfect for Valentine's Day and can even be made kosher to enjoy for Passover by making your own confectioners' sugar. The fresh berries on the side are a nice addition to the rich chocolate. "
+    "desc": "This deeply dark chocolate vegan cake is not just for vegans. This fudge-like cake is also gluten-free, perfect for Valentine's Day and can even be made kosher to enjoy for Passover by making your own confectioners' sugar. The fresh berries on the side are a nice addition to the rich chocolate.",
+    "category": "deserts",
+    "ingredients": [
+      "unsweetened vegan dark chocolate",
+      "coconut oil",
+      "nseasoned pumpkin puree",
+      "almond flour",
+      "maple syrup",
+      "unsweetened cocoa powder"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 2,
     "title": "Cranberry-Almond Granola Bars",
     "imageURL": "images/deserts/Cranberry-Almond Granola Bars.png",
-    "desc": "There are plenty of granola bar options at the grocery store, but they're also easy (and often healthier) to make at home. Feel free to vary the add-ins to your taste, swapping 2 cups of any combination of small (or chopped) dried fruit, nuts, seeds and/or chocolate chips for the dried cranberries and nuts in this version. We tested several sticky sweeteners, including maple syrup and honey, but found brown rice syrup held the bars together the best. "
+    "desc": "There are plenty of granola bar options at the grocery store, but they're also easy (and often healthier) to make at home. Feel free to vary the add-ins to your taste, swapping 2 cups of any combination of small (or chopped) dried fruit, nuts, seeds and/or chocolate chips for the dried cranberries and nuts in this version. We tested several sticky sweeteners, including maple syrup and honey, but found brown rice syrup held the bars together the best.",
+    "category": "deserts",
+    "ingredients": [
+      "old-fashioned oats",
+      "crispy brown rice cereal",
+      "chocolate chips",
+      "unsweetened shredded coconut"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 3,
     "title": "Strawberry-Mango Nice Cream",
     "imageURL": "images/deserts/Strawberry-Mango Nice Cream.png",
-    "desc": "This creamy strawberry-mango nice cream is a delicious healthy ice cream alternative. It's all fruit, dairy-free, vegan and contains no added sugar. And this three-ingredient dessert is super-fast and easy to prep. Serve it as a snack or light dessert on the hottest days of the summer--or any time you want a refreshing treat. "
+    "desc": "This creamy strawberry-mango nice cream is a delicious healthy ice cream alternative. It's all fruit, dairy-free, vegan and contains no added sugar. And this three-ingredient dessert is super-fast and easy to prep. Serve it as a snack or light dessert on the hottest days of the summer--or any time you want a refreshing treat.",
+    "ingredients": [
+      "frozen mango chunks",
+      "frozen sliced strawberries",
+      " lime juice"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   }
 ]

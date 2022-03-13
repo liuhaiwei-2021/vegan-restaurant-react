@@ -3,24 +3,239 @@
     "id": 0,
     "title": "Vegan Lentil Soup",
     "imageURL": "images/dishes/Vegan Lentil Soup.png",
-    "desc": "This vegan lentil soup recipe is packed with fresh ingredients and plenty of lentils that deliver a healthy dose of fiber in each bite. This vegan soup is the perfect cold-weather lunch or healthy dinner the whole family will love."
+    "desc": "This vegan lentil soup recipe is packed with fresh ingredients and plenty of lentils that deliver a healthy dose of fiber in each bite. This vegan soup is the perfect cold-weather lunch or healthy dinner the whole family will love.",
+    "category": "dishes",
+    "ingredients": [
+      "extra-virgin olive oil",
+      "yellow onions",
+      "carrots",
+      "garlic",
+      "cannellini beans"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 500
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 8
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 2
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 8
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 5
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 2
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 6
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 40
+      }
+    ]
   },
   {
     "id": 1,
     "title": "Vegan Coconut Chickpea Curry",
     "imageURL": "images/dishes/Vegan Coconut Chickpea Curry.png",
-    "desc": "To make this 20-minute vegan curry even faster, buy precut veggies from the salad bar at the grocery store. To make it a full, satisfying dinner, serve over cooked brown rice. When shopping for simmer sauce, look for one with 400 mg of sodium or less and check the ingredient list for cream or fish sauce if you want to keep this vegan. If you like a spicy kick, add a few dashes of your favorite hot sauce at the end."
+    "desc": "To make this 20-minute vegan curry even faster, buy precut veggies from the salad bar at the grocery store. To make it a full, satisfying dinner, serve over cooked brown rice. When shopping for simmer sauce, look for one with 400 mg of sodium or less and check the ingredient list for cream or fish sauce if you want to keep this vegan. If you like a spicy kick, add a few dashes of your favorite hot sauce at the end.",
+    "category": "dishes",
+    "ingredients": [
+      "onion",
+      "zucchini",
+      "coconut curry simmer sauce",
+      "baby spinach",
+      "brown rice"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 2,
     "title": "Strawberry Spinach Salad with Avocado & Walnuts",
     "imageURL": "images/dishes/Strawberry Spinach Salad with Avocado & Walnuts.png",
-    "desc": "Serve this summery strawberry spinach salad alongside soup or a half sandwich, or top with grilled chicken or roasted salmon for a complete and easy healthy meal."
+    "desc": "Serve this summery strawberry spinach salad alongside soup or a half sandwich, or top with grilled chicken or roasted salmon for a complete and easy healthy meal.",
+    "category": "dishes",
+    "ingredients": [
+      "baby spinach",
+      "red onion",
+      "strawberries",
+      "Annie's Light Raspberry Vinaigrette",
+      "avocado",
+      "walnut"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 3,
     "title": "Cucumber Vinegar Salad",
     "imageURL": "images/dishes/Cucumber Vinegar Salad.png",
-    "desc": "This cucumber vinegar salad has the perfect balance between sweet and sour flavors, plus a hint of fresh dill. The red onion adds nice crunch. Enjoy this salad right after you're done making it or store it away to snack on for later."
+    "desc": "This cucumber vinegar salad has the perfect balance between sweet and sour flavors, plus a hint of fresh dill. The red onion adds nice crunch. Enjoy this salad right after you're done making it or store it away to snack on for later.",
+    "category": "dishes",
+    "ingredients": ["cucumbers", "red onion", "fresh dill"],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   }
 ]

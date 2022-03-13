@@ -3,24 +3,242 @@
     "id": 0,
     "title": "Berry Bubbly Vodka Soda",
     "imageURL": "images/drinks/Berry Bubbly Vodka Soda.png",
-    "desc": "This bright and bubbly sipper combines berries with vodka and seltzer to make a colorful 3-ingredient cocktail you can enjoy year-round, thanks to frozen berries. Amp up the flavor even more by using a flavored seltzer rather than plain! "
+    "desc": "This bright and bubbly sipper combines berries with vodka and seltzer to make a colorful 3-ingredient cocktail you can enjoy year-round, thanks to frozen berries. Amp up the flavor even more by using a flavored seltzer rather than plain!",
+    "category": "drinks",
+    "ingredients": ["vodka", "frozen berries, thawed", "Ice", "seltzer water"],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 1,
     "title": "Cucumber Martini",
     "imageURL": "images/drinks/Cucumber Martini.png",
-    "desc": "The gin is the primary flavor in this cooling cucumber martini, so be sure to pick your favorite! Elderflower liqueur adds a floral note, while lime and simple syrup give this refreshing cocktail a balance of sweet and sour flavors."
+    "desc": "The gin is the primary flavor in this cooling cucumber martini, so be sure to pick your favorite! Elderflower liqueur adds a floral note, while lime and simple syrup give this refreshing cocktail a balance of sweet and sour flavors.",
+    "category": "drinks",
+    "ingredients": [
+      "bacardi rum",
+      "Triple Sec",
+      "orange juice",
+      "cherries",
+      "orange twist",
+      "lemon"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 150
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 2,
     "title": "Healthy Chocolate Milk Recovery Drink",
     "imageURL": "images/drinks/Healthy Chocolate Milk Recovery Drink.png",
-    "desc": "Recover from your next workout with this healthy chocolate milk recovery drink. Avocado adds creaminess while chocolate and peanut butter give it a satisfying salty-sweet flavor. Oats will fill you up with their added boost of fiber. "
+    "desc": "Recover from your next workout with this healthy chocolate milk recovery drink. Avocado adds creaminess while chocolate and peanut butter give it a satisfying salty-sweet flavor. Oats will fill you up with their added boost of fiber.",
+    "category": "drinks",
+    "ingredients": [
+      "unsweetened plain almond milk",
+      "old-fashioned rolled oats",
+      "creamy peanut butter",
+      "unsweetened cocoa powder",
+      "ground cinnamon",
+      "banana, peeled and frozen",
+      "avocado"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   },
   {
     "id": 3,
     "title": "Strawberry-Blueberry-Banana Smoothie",
     "imageURL": "images/drinks/Strawberry-Blueberry-Banana Smoothie.png",
-    "desc": "A smoothie with strawberries, blueberries and banana is delicately sweet and entirely kid-friendly, even with a boost of protein from hemp seeds. Freeze the fruits ahead of time for an extra frosty texture once blended. "
+    "desc": "A smoothie with strawberries, blueberries and banana is delicately sweet and entirely kid-friendly, even with a boost of protein from hemp seeds. Freeze the fruits ahead of time for an extra frosty texture once blended.",
+    "category": "drinks",
+    "ingredients": [
+      "frozen strawberries",
+      "frozen blueberries",
+      "banana (frozen, if desired)",
+      "chilled unsweetened cashew milk, plus more if needed",
+      "cashew butter",
+      "hulled hemp seeds"
+    ],
+    "nutrition": [
+      {
+        "id": 1,
+        "label": "calories",
+        "value": 200
+      },
+      {
+        "id": 2,
+        "label": "total fat",
+        "value": 10
+      },
+      {
+        "id": 3,
+        "label": "saturated fat",
+        "value": 10
+      },
+      {
+        "id": 4,
+        "label": "cholesterol",
+        "value": 10
+      },
+      {
+        "id": 5,
+        "label": "sodium",
+        "value": 10
+      },
+      {
+        "id": 6,
+        "label": "total carbohydrates",
+        "value": 10
+      },
+      {
+        "id": 7,
+        "label": "fiber",
+        "value": 10
+      },
+      {
+        "id": 8,
+        "label": "sugar",
+        "value": 10
+      },
+      {
+        "id": 9,
+        "label": "protein",
+        "value": 10
+      }
+    ]
   }
 ]
