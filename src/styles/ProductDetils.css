@@ -17,9 +17,7 @@
   width: 50%;
 }
 .ProductDetails p,
-li,
-h2,
-h3 {
+li {
   text-align: start;
 }
 li {
