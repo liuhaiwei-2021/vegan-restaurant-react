@@ -1,8 +1,10 @@
 //Projects files
 import pages from "../data/pages.json";
 import drinks from "../data/drinks.json";
+import categories from "../data/categories.json";
 import Hero from "../components/Hero";
-import ProductCard from "../components/ProductCard";
+import ProductCards from "../components/ProductCards";
+import CategoryDesc from "../components/CategoryDesc";
 import "../styles/ProductCard.css";
 
 function Drinks() {
@@ -11,18 +13,15 @@ function Drinks() {
   const slogan = pages["drinks-slogan"];
   const heroContent = { name, imageURL, slogan };
   const category = "drinks";
+  const categoryDesc = categories[2].desc;
+
   return (
     <div className="deserts">
       <Hero heroContent={heroContent} />
       <div className="container">
-        <p className="category-desc">
-          These drinks have at least 7 grams of protein per serving and are
-          packed with nutritious fruits and vegetables.
-        </p>
+        <CategoryDesc categoryDesc={categoryDesc} />
         <div className="product-cards">
-          {drinks.map((item, index) => (
-            <ProductCard key={index} item={item} category={category} />
-          ))}
+          <ProductCards products={drinks} category={category} />
         </div>
       </div>
     </div>

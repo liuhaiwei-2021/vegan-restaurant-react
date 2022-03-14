@@ -1,9 +1,11 @@
 //Projects files
 import pages from "../data/pages.json";
 import dishes from "../data/dishes.json";
+import categories from "../data/categories.json";
 import Hero from "../components/Hero";
-import ProductCard from "../components/ProductCard";
-import "../styles/category.css";
+import ProductCards from "../components/ProductCards";
+import CategoryDesc from "../components/CategoryDesc";
+import "../styles/ProductCard.css";
 
 function Dishes() {
   const name = pages["dishes-name"];
@@ -11,19 +13,14 @@ function Dishes() {
   const slogan = pages["dishes-slogan"];
   const heroContent = { name, imageURL, slogan };
   const category = "dishes";
+  const categoryDesc = categories[0].desc;
+
   return (
     <div className="dishes">
       <Hero heroContent={heroContent} />
       <div className="container">
-        <p className="category-desc">
-          Healthy, delicious recipes, including dinner, lunch ideas, salad, soup
-          and more, from the food and nutrition experts at Vegan Taste
-        </p>
-        <section className="product-cards">
-          {dishes.map((item, index) => (
-            <ProductCard key={index} item={item} category={category} />
-          ))}
-        </section>
+        <CategoryDesc categoryDesc={categoryDesc} />
+        <ProductCards products={dishes} category={category} />
       </div>
     </div>
   );

@@ -46,6 +46,13 @@
   font-weight: bolder;
   text-transform: uppercase;
 }
+.category {
+  display: block;
+  text-align: center;
+}
+.category-desc {
+  padding: 24px;
+}
 .category-btn {
   display: block;
   width: 200px;

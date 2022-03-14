@@ -1,9 +1,9 @@
 //Projects files
+import CategoryCard from "../components/CategoryCard";
 import categories from "../data/categories.json";
 import pages from "../data/pages.json";
 import Hero from "../components/Hero";
 import "../styles/Home.css";
-import CategoryCard from "../components/CategoryCard";
 
 function Home() {
   const name = pages["home-name"];

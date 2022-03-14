@@ -3,18 +3,18 @@
     "id": 0,
     "title": "dishes",
     "imageURL": "images/home/dishes.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "desc": "Healthy, delicious recipes, including dinner, lunch ideas, salad, soup and more, from the food and nutrition experts at Vegan Taste"
   },
   {
     "id": 1,
     "title": "deserts",
     "imageURL": "images/home/deserts.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "desc": "These deserts have high fiber and protein per serving and are packed with nutritious fruits ,nuts and vegetbles."
   },
   {
     "id": 2,
     "title": "drinks",
     "imageURL": "images/home/drinks.png",
-    "desc": "From brownies, rocky roads, crumbles and pancakes to veggie-packed curries, stir-fries and salads, these vegan recipes are vibrant, delicious and filling. "
+    "desc": "These drinks have at least 7 grams of protein per serving and are packed with nutritious fruits and vegetables. "
   }
 ]

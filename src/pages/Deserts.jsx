@@ -1,9 +1,11 @@
 //Projects files
 import pages from "../data/pages.json";
 import deserts from "../data/deserts.json";
+import categories from "../data/categories.json";
 import Hero from "../components/Hero";
-import ProductCard from "../components/ProductCard";
-import "../styles/category.css";
+import ProductCards from "../components/ProductCards";
+import CategoryDesc from "../components/CategoryDesc";
+import "../styles/ProductCard.css";
 
 function Deserts() {
   const name = pages["deserts-name"];
@@ -11,18 +13,14 @@ function Deserts() {
   const slogan = pages["deserts-slogan"];
   const heroContent = { name, imageURL, slogan };
   const category = "deserts";
+  const categoryDesc = categories[1].desc;
   return (
     <div className="deserts">
       <Hero heroContent={heroContent} />
       <div className="container">
-        <p className="category-desc">
-          These deserts have high fiber and protein per serving and are packed
-          with nutritious fruits ,nuts and vegetbles.
-        </p>
+        <CategoryDesc categoryDesc={categoryDesc} />
         <div className="desert-cards">
-          {deserts.map((item, index) => (
-            <ProductCard key={index} item={item} category={category} />
-          ))}
+          <ProductCards products={deserts} category={category} />
         </div>
       </div>
     </div>
