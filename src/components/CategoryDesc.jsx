@@ -1,3 +1,5 @@
+// Naming -1 should be Description
+// This is over engineering -3
 function CategoryDesc({ categoryDesc }) {
   return (
     <div>

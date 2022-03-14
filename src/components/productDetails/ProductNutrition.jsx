@@ -1,3 +1,4 @@
+// Ok this one deserves to be a new component, you pass a prop here and is long enough to deserve to be a new component
 function ProductNutrition({ product }) {
   const { nutrition } = product;
   return (

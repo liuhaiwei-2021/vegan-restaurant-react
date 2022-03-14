@@ -14,6 +14,7 @@ function Deserts() {
   const heroContent = { name, imageURL, slogan };
   const category = "deserts";
   const categoryDesc = categories[1].desc;
+
   return (
     <div className="deserts">
       <Hero heroContent={heroContent} />

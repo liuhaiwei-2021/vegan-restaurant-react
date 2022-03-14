@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 //Projects files
 import "../styles/CategoryCard.css";
 
+// good
+// but use export default in 1 line
 function CategoryCard({ item }) {
   const { title, imageURL, desc } = item;
   const navigate = useNavigate();

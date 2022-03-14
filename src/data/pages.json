@@ -1,3 +1,15 @@
+// This happens when you don't have a schema in the product backlog spreadsheet.
+// This can be refactored like
+{
+  "home": {
+    "name": "Vegan Taste",
+    "imageURL": "mages/home-hero.png",
+    "slogan": "Healthy Food for Health Lifestylers."
+  }
+}
+
+
+
 {
   "home-name": "Vegan Taste",
   "home-imageURL": "images/home-hero.png",

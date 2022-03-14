@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 //Projects files
 import "../styles/Navigation.css";
 
+// Component too long, even if it has 48 lines, there is clearly a lot to refactor
 function Navigation() {
   return (
     <div className="nav-bar">

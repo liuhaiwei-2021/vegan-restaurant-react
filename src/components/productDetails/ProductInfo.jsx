@@ -1,3 +1,4 @@
+// If this is used multiple times, is ok to make a new component otherwise not.
 function ProductInfo({ product }) {
   const { title, desc, ingredients } = product;
   return (

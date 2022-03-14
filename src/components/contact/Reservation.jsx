@@ -1,3 +1,4 @@
+// This make sense as a new component
 function Reservation() {
   return (
     <div className="reservation">

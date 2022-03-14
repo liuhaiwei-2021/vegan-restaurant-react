@@ -1,3 +1,4 @@
+// too small to be a react component plus it does not have any data is just pure html
 function Owner() {
   return (
     <div className="owner">

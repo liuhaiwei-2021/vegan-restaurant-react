@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import ProductDetails from "./pages/ProductDetails";
 import "./styles/App.css";
 
+// Add the export default here -1
 function App() {
   return (
     <div className="main">
@@ -19,6 +20,7 @@ function App() {
         <Navigation />
         <div className="content">
           <Routes>
+            {/* The exact tag goes on the directory with only "/"" to avoid bugs */}
             <Route path="/" element={<Home />} />
             <Route path="/dishes" element={<Dishes />} />
             <Route path="/deserts" element={<Deserts />} />

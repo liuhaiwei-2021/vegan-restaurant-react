@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import "../styles/ProductCard.css";
 
-function ProductCard({ item, category }) {
+// good but use 1 line export
+export default function ProductCard({ item, category }) {
   const { id, title, imageURL, desc } = item;
   return (
     <div className="product-card">
@@ -15,5 +16,3 @@ function ProductCard({ item, category }) {
     </div>
   );
 }
-
-export default ProductCard;

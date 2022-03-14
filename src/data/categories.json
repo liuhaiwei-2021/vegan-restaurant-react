@@ -1,3 +1,4 @@
+// You have this json, you could have use it to create a single react component called Categories.jsx instead of making Desert.jsx, Drinks.jsx and Dishes.jsx
 [
   {
     "id": 0,

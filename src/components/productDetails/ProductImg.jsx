@@ -1,3 +1,4 @@
+// Over engineering -1
 function ProductImg({ product }) {
   const { imageURL } = product;
   return (

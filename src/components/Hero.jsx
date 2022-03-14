@@ -2,6 +2,7 @@
 
 import "../styles/Hero.css";
 
+// ok
 function Hero({ heroContent }) {
   const { name, imageURL, slogan } = heroContent;
   return (
