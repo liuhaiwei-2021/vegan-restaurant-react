@@ -3,7 +3,7 @@ function Reservation() {
     <div className="reservation">
       <h3>Book Bord</h3>
       <form className="booking">
-        <select class="form-select" aria-label="Default select example">
+        <select className="form-select" aria-label="Default select example">
           <option value="1">Lunch</option>
           <option value="2">Dinner</option>
         </select>

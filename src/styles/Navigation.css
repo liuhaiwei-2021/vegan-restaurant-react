@@ -9,8 +9,9 @@
   background-color: #eee;
 }
 .nav-container {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 80%;
   margin: auto;
 }
@@ -42,5 +43,45 @@ a:hover {
   color: #5f8e44;
 }
 a:active {
-  color: #cca33e;
+  color: #0f0c05;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (max-width: 400px) {
+  a {
+    font-size: 8px;
+  }
+  .logo {
+    width: 12px;
+  }
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+  a {
+    font-size: 10px;
+  }
+  .logo {
+    width: 16px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 2px 4px;
+    font-weight: bold;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
 }

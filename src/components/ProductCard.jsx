@@ -4,13 +4,13 @@ import "../styles/ProductCard.css";
 function ProductCard({ item, category }) {
   const { id, title, imageURL, desc } = item;
   return (
-    <div className="card">
-      <img className="card-img " src={imageURL} alt="card" />
-      <div className="card-info">
+    <div className="product-card">
+      <img className="product-card-img " src={imageURL} alt="card" />
+      <div className="product-card-info">
         <Link to={`/${category}/${id}`}>
-          <h3 className="card-title">{title}</h3>
+          <h3 className="product-card-title">{title}</h3>
         </Link>
-        <p className="card-desc">{desc}</p>
+        <p className="product-card-desc">{desc}</p>
       </div>
     </div>
   );

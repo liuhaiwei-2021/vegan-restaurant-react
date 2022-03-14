@@ -1,21 +1,21 @@
-.card {
+.product-card {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: min-content;
   margin: 0;
   padding: 16px;
 }
-.card-title {
+.product-card-title {
   font-weight: bolder;
   text-transform: uppercase;
 }
-.card-img {
+.product-card-img {
   max-width: 100%;
   height: auto;
   padding: 0;
   margin: 0;
 }
-.card-info {
+.product-card-info {
   grid-column-start: 2;
   grid-column-end: 3;
   display: flex;
@@ -25,6 +25,12 @@
   margin: 0 auto;
   padding: 0 48px;
 }
-.card-desc {
+.product-card-desc {
   text-align: start;
+}
+@media (max-width: 550px) {
+  .product-card {
+    display: flex;
+    flex-direction: column;
+  }
 }

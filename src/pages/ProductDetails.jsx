@@ -18,6 +18,7 @@ function ProductDetails() {
   const product = data.find((product) => {
     return product.id === productId && product.category === category;
   });
+  console.log(product);
 
   return (
     <div className="product-details container">

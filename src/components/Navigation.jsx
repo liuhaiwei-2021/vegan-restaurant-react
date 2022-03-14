@@ -36,7 +36,7 @@ function Navigation() {
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/contact" exact="true">
-              Contact us
+              Contact
             </NavLink>
           </li>
         </ul>
