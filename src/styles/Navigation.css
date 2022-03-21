@@ -56,6 +56,10 @@ a:active {
   .logo {
     width: 12px;
   }
+  .nav-container {
+    width: 100%;
+    padding: 0 16px;
+  }
 }
 
 /* Larger than phablet */
