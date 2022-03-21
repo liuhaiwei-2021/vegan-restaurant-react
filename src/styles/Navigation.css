@@ -81,6 +81,7 @@ a:active {
     padding: 8px 0;
   }
   .nav-container {
-    width: 60%;
+    width: 100%;
+    padding: 0 16px;
   }
 }
